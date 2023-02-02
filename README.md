@@ -1,2 +1,2 @@
 # The best course at New Paltz
-## web-dev-spring-2023
+## Web-Dev-Spring-2023
