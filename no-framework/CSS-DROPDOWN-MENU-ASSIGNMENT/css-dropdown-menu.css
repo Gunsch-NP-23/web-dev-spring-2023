@@ -32,12 +32,32 @@ ul > a:nth-child(3) {
     font-weight: 700;
 }
 
+.post0-file-items,.post0-edit-items,.post0-view-items{
+    position: absolute;
+    padding:5px;
+    background-color:lightgreen;
+}
+
+li{
+    padding:5px;
+}
+
+.post0-file-item,.post0-edit-item,.post0-view-item{
+    list-style: none;
+}
+
 .dropdown-menu ul{
-    background-color: green;
     height:5%;
     padding:0px;
     margin:0px;
+    display:inline-flex;
+    
 }
+.dropdown-menu ul a {
+    margin-left:10%;
+}
+
+
 
 .instructions{
     background-color: white;
@@ -70,3 +90,54 @@ ul > a:nth-child(3) {
     display: none;
 }
 
+.post0-file-items{
+    background-color:green;
+    display:none;
+}
+
+.file-menu-item-0:hover ~ .post0-file-items{
+    display:block;
+}
+
+.post0-file-items:hover{
+    display:block;
+}
+.post0-file-item:hover{
+    display:block;
+    background-color:lightgreen;
+}
+
+.post0-edit-items{
+    background-color:green;
+    display:none;
+}
+
+.edit-menu-item-0:hover ~ .post0-edit-items{
+    display:block;
+}
+
+.post0-edit-items:hover{
+    display:block;
+}
+.post0-edit-item:hover{
+    display:block;
+    background-color:lightgreen;
+}
+
+.post0-view-items{
+    background-color:green;
+    display:none;
+}
+
+.view-menu-item-0:hover ~ .post0-view-items{
+    display:block;
+}
+
+.post0-view-items:hover{
+    display:block;
+
+}
+.post0-view-item:hover{
+    display:block;
+    background-color:lightgreen;
+}
