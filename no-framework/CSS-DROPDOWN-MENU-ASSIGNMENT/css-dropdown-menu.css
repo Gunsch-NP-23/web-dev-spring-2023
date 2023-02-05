@@ -12,18 +12,23 @@ body{
     margin:0px;
 }
 
-ul > li {
+ul > a > li {
     display: inline-block;
     margin-left:3%;
     margin-right:3%;
     font-size:25px;
+    color:black;
 }
 
-ul > li:nth-child(1) {
+ul > a > li:hover {
+    background-color:lightgreen;
+}
+
+ul > a:nth-child(1) {
     font-weight: 700;
 }
 
-ul > li:nth-child(3) {
+ul > a:nth-child(3) {
     font-weight: 700;
 }
 
@@ -51,5 +56,17 @@ ul > li:nth-child(3) {
     margin-left:3%;
     margin-right:3%;
 
+}
+
+.file-hidden-menu li{
+    display: none;
+}
+
+.edit-hidden-menu li{
+    display: none;
+}
+
+.view-hidden-menu li{
+    display: none;
 }
 
