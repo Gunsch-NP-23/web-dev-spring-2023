@@ -1,3 +1,18 @@
 html {
     background-color:#D7FFE4;
 }
+
+.dropdown-menu{
+    background-color: green;
+    height:5%;
+}
+
+.instructions{
+    background-color: white;
+    border-left:5px solid greenyellow;
+}
+.extra-credit{
+    background-color:white;
+    border-left:5px solid yellow;
+}
+
