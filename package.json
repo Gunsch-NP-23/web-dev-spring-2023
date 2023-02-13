@@ -1,0 +1,14 @@
+{
+  "name": "web-dev-spring-2023",
+  "version": "1.0.0",
+  "license": "BSD",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gunsch-NP-23/web-dev-spring-2023.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
