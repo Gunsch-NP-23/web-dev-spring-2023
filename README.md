@@ -7,4 +7,4 @@ I've taken a course in data structures and have made an online MMORPG loot gener
 
 I hope to use the information learned in this course to further my career and/or hobbies. One example would being make more cool projects.
 
-![picture of me!](https://raw.githubusercontent.com/Gunsch-NP-23/web-dev-spring-2023/main/pictures/me/20221114_111339.jpg)
+![picture of me!](https://raw.githubusercontent.com/Gunsch-NP-23/web-dev-spring-2023/main/pictures/me/20221114_111339.jpg =  =300x300)
