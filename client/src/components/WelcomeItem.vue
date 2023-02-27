@@ -5,8 +5,12 @@
     </i>
     <div class="details">
       <h3>
-        <slot name="heading"></slot>
+        <!-- Can insert stuff into this slot -->
+        <slot name="heading">
+
+        </slot>
       </h3>
+      <!-- And this one too..... -->
       <slot></slot>
     </div>
   </div>
