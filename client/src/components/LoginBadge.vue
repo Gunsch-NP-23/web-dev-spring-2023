@@ -23,9 +23,6 @@ const session = useSession();
                     <strong>Sign up</strong>
                 </a>
             </div>
-
-
-
 </template>
 
 <style scoped>
